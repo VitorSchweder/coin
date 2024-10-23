@@ -99,3 +99,24 @@
 2024-10-21 02:49:32,735 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2024-10-21 02:49:32,735 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2024-10-21 03:08:56,706 INFO reaped unknown pid 83
+2024-10-21 03:12:17,565 WARN received SIGQUIT indicating exit request
+2024-10-21 03:12:17,568 INFO waiting for nginx, php-fpm to die
+2024-10-21 03:12:17,585 INFO stopped: php-fpm (exit status 0)
+2024-10-21 03:12:17,607 INFO stopped: nginx (exit status 0)
+2024-10-22 04:06:43,899 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-22 04:06:43,901 INFO supervisord started with pid 1
+2024-10-22 04:06:44,907 INFO spawned: 'nginx' with pid 8
+2024-10-22 04:06:44,909 INFO spawned: 'php-fpm' with pid 9
+2024-10-22 04:06:45,947 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-22 04:06:45,948 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-22 05:37:23,561 INFO reaped unknown pid 65
+2024-10-22 12:11:57,857 WARN received SIGQUIT indicating exit request
+2024-10-22 12:11:57,859 INFO waiting for nginx, php-fpm to die
+2024-10-22 12:11:57,875 INFO stopped: php-fpm (exit status 0)
+2024-10-22 12:11:58,883 INFO stopped: nginx (exit status 0)
+2024-10-23 00:44:18,157 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-23 00:44:18,159 INFO supervisord started with pid 1
+2024-10-23 00:44:19,162 INFO spawned: 'nginx' with pid 9
+2024-10-23 00:44:19,162 INFO spawned: 'php-fpm' with pid 10
+2024-10-23 00:44:20,270 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-23 00:44:20,271 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

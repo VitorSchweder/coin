@@ -18,9 +18,16 @@ class CoinController extends Controller
 
     public function recentPrices(Request $request)
     {       
-        $type = $request->get('type', null);
+        $symbol = $request->get('symbol', null);
 
-        dd($type);
-       // return response()->json($this->coinService->recentPrices($type));
+        return response()->json($this->coinService->recentPrices($symbol));
+    }
+
+    public function estimatedPrices(Request $request)
+    {       
+        $symbol = $request->get('symbol', null);
+        $date = $request->get('date', null);
+
+        return response()->json($this->coinService->estimatedPrices($date, $symbol));
     }
 }

@@ -2,19 +2,24 @@
 
 namespace App\Services;
 
-//use App\Repositories\Contracts\CoinRepositoryInterface;
+use App\Repositories\Contracts\CoinRepositoryInterface;
 
 class CoinService
 {
-    //private CoinRepositoryInterface $coinRepository;
+    private $coinRepository;
 
-    /*public function __construct(CoinRepositoryInterface $coinRepository)
+    public function __construct(CoinRepositoryInterface $coinRepository)
     {
         $this->coinRepository = $coinRepository;
     }
 
-    public function recentPrices($type)
+    public function recentPrices($symbol)
     {    
-        return $this->coinRepository->recentPrices($type);
-    }*/
+        return $this->coinRepository->getRecentPrices($symbol);
+    }
+
+    public function estimatedPrices($date, $symbol)
+    {    
+        return $this->coinRepository->getEstimatedPrices($date, $symbol);
+    }
 }
