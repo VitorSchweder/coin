@@ -4,7 +4,8 @@ To run this application:
 
 - docker compose build
 - docker compose up -d
-- open docker container and run:
+
+Open docker container and run:
   - composer install;
   - cp .env.example .env;
   - php artisan key:generate;
