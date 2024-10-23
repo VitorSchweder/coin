@@ -4,11 +4,12 @@ To run this application:
 
 - docker compose build
 - docker compose up -d
-- open docker container and run: composer install;
-- open docker container and run: cp .env.example .env;
-- open docker container and run: php artisan key:generate;
-- open docker container and run: php artisan migrate 
-- open docker container and run: php artisan coins:import
+- open docker container and run:
+  - composer install;
+  - cp .env.example .env;
+  - php artisan key:generate;
+  - php artisan migrate 
+  - php artisan coins:import
 
 ## Test the project
 
