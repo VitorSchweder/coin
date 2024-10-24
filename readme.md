@@ -18,7 +18,11 @@ Open docker container and run:
 - open docker container and run: `php vendor/bin/phpunit`
 
 ## End points
+### Live
+- [Recent prices](https://seashell-app-ql5jf.ondigitalocean.app/api/coins/recent-prices?symbol=BTC)
+- [Estimated prices](https://seashell-app-ql5jf.ondigitalocean.app/api/coins/estimated-prices?symbol=BTC&date=2024-10-24T05:19:47.475Z)
 
+### Local
 - [Recent prices](http://localhost:8080/api/coins/recent-prices?symbol=btc)
 - [Estimated prices](http://localhost:8080/api/coins/estimated-prices?symbol=btc&date=2024-10-22T05:41:59.435Z)
 
